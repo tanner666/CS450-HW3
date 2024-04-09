@@ -1,0 +1,62 @@
+body{
+    margin: 0px;
+}
+.modebar {
+    transform: rotate(-90deg) translateX(-100%);
+    right: -90px !important; /* Adjust as needed */
+    top: -60px !important;
+}
+
+/* Adjust the modebar button layout */
+.modebar-group {
+    flex-direction: column !important;
+}
+
+.parent {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content:center; /*applies on the main axis*/
+    align-items: center;   /*applies on the cross axis*/
+    width: 100%;
+    margin: 0px;
+    height: 800px;
+}
+.child1{
+    width: 100%;
+    margin-bottom: 50px;
+    background-color: #cbcbcb;
+
+}
+.child1_1{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* This centers the dropdown and sliders horizontally */
+    width: 100%; 
+    align-items: center;
+    vertical-align: center;
+    height: 50px;
+}
+.child2{
+    width: 80%;   
+}
+
+/* Customize the Slider */
+.rc-slider-rail{
+    background-color: #a2a2a2;
+}
+.rc-slider-track{
+    background-color: #282828;
+}
+.rc-slider-dot {
+    border: 2px solid #7c7c7c;
+    background-color: #777777;
+}
+.rc-slider-handle {
+    border: solid 2px #868686;
+    background-color: #fff;
+}
+.rc-slider-mark-text {
+    color: #3e3e3e;
+}
