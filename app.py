@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
 # Load the dataset from the csv file
-csv_file_path = './HW3/ProcessedTweets.csv'
+csv_file_path = './ProcessedTweets.csv'
 tweets_df = pd.read_csv(csv_file_path)
 
 months= tweets_df['Month'].unique()
